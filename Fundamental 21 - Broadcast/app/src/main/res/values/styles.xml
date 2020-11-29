@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TODO 4: buat styles.xml terus buat style baru-->
+    <style name="SmsReceiverTheme" parent="Theme.AppCompat.Light.Dialog"/>
+</resources>
