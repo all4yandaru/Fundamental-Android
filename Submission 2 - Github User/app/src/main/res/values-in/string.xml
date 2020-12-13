@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="github_username">Github Username</string>
+    <string name="github_profile_picture">Foto Profil Github</string>
+    <string name="search">Cari User</string>
+    <string name="github_name">Nama Github</string>
+    <string name="github_location">Lokasi Github</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="data_empty">Data kosong</string>
+    <string name="change_language">Ganti Pengaturan Bahasa</string>
+</resources>
