@@ -1,0 +1,13 @@
+package com.project.mynotesapp
+
+import android.view.View
+// TODO 8: buat class custom click listener
+class CustomOnItemClickListener(private val position: Int, private val onItemClickCallback: OnItemClickCallback): View.OnClickListener {
+    interface OnItemClickCallback {
+        fun onItemClicked(view: View, position: Int)
+    }
+
+    override fun onClick(v: View) {
+        onItemClickCallback.onItemClicked(v, position)
+    }
+}
