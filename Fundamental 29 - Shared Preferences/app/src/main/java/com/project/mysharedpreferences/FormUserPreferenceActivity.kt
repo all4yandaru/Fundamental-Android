@@ -8,6 +8,7 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.core.graphics.rotationMatrix
+import androidx.core.text.isDigitsOnly
 import com.project.mysharedpreferences.databinding.ActivityFormUserPreferenceBinding
 import com.project.mysharedpreferences.model.UserModel
 
@@ -109,7 +110,8 @@ class FormUserPreferenceActivity : AppCompatActivity(), View.OnClickListener {
                 binding.edtPhone.error = FIELD_REQUIRED
                 return
             }
-            if (!TextUtils.isDigitsOnly(phoneNo)) {
+            //if (!TextUtils.isDigitsOnly(phoneNo)) {
+            if (!phoneNo.isDigitsOnly()) {
                 binding.edtPhone.error = FIELD_DIGIT_ONLY
                 return
             }
