@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="github_username">Github Username</string>
+    <string name="github_profile_picture">Foto Profil Github</string>
+    <string name="search">Cari User</string>
+    <string name="github_name">Nama Github</string>
+    <string name="github_location">Lokasi Github</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="data_empty">Data kosong</string>
+    <string name="change_language">Ganti Pengaturan Bahasa</string>
+    <string name="favorite">Favorit</string>
+    <string name="repeating_alarm_set">Notifikasi berkala diatur setiap pukul 9.00 pagi</string>
+    <string name="repeating_alarm_cancel">Notifikasi berkala dibatalkan</string>
+    <string name="key_alarm">alarm</string>
+    <string name="set_alarm_repeat">atur notifikasi berkala setiap pukul 9.00 pagi</string>
+    <string name="set_repeat_notification">Atur notifikasi berkala</string>
+    <string name="turn_on_alarm">Nyalakan notifikasi</string>
+    <string name="reminder_message">Jangan lupa buka aplikasi Github User hari ini!</string>
+    <string name="github_user_app">Github User App</string>
+</resources>

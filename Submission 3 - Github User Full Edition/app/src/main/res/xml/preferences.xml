@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:iconSpaceReserved="false"
+        android:key="@string/key_alarm"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/set_alarm_repeat"
+        android:title="@string/turn_on_alarm"
+        tools:ignore="UnusedAttribute" />
+</PreferenceScreen>

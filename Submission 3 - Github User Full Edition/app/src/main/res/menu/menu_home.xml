@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--TODO 6: buat item utk search nya-->
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_white_24px"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom" />
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/favorite_white"
+        android:title="@string/favorite"
+        app:showAsAction="collapseActionView|ifRoom"/>
+
+    <item
+        android:id="@+id/action_change_settings"
+        android:title="@string/change_language"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_set_alarm"
+        android:title="@string/set_repeat_notification"
+        app:showAsAction="never"/>
+
+</menu>

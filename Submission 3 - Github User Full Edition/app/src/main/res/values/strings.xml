@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="github_username">Github Username</string>
+    <string name="github_profile_picture">Github Profile Picture</string>
+    <string name="search">Search User</string>
+    <string name="github_name">Github Name</string>
+    <string name="github_location">Github Location</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="data_empty">Data is empty</string>
+    <string name="change_language">Change Language Settings</string>
+    <string name="favorite">Favorite</string>
+    <string name="repeating_alarm_set">Repeating notification set up every 9.00 AM</string>
+    <string name="repeating_alarm_cancel">Repeating notification canceled</string>
+    <string name="key_alarm">alarm</string>
+    <string name="set_alarm_repeat">set notification repeat every 9.00 AM</string>
+    <string name="set_repeat_notification">Set Repeat Notification</string>
+    <string name="turn_on_alarm">Turn on notification</string>
+    <string name="reminder_message">Don\'t forget to open Github User App today!</string>
+    <string name="github_user_app">Github User App</string>
+</resources>
