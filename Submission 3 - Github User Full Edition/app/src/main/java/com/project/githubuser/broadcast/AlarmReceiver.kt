@@ -13,6 +13,7 @@ import android.widget.Toast
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
 import com.project.githubuser.R
+import com.project.githubuser.ui.MainActivity
 import java.util.*
 
 class AlarmReceiver : BroadcastReceiver() {
@@ -42,6 +43,8 @@ class AlarmReceiver : BroadcastReceiver() {
 
         val notificationManagerCompat = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
         val alarmSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
+        val intent = Intent(context, MainActivity::class.java)
+        val pendingIntent = PendingIntent.getActivity(context, ID_REPEATING, intent, 0)
         val builder = NotificationCompat.Builder(context, CHANNEL_ID)
             .setSmallIcon(R.drawable.ic_access_time_black)
             .setContentTitle(context.getString(R.string.github_user_app))
@@ -49,6 +52,7 @@ class AlarmReceiver : BroadcastReceiver() {
             .setColor(ContextCompat.getColor(context,android.R.color.transparent))
             .setVibrate(longArrayOf(1000,1000,1000,1000,1000))
             .setSound(alarmSound)
+            .setContentIntent(pendingIntent)
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val channel = NotificationChannel(CHANNEL_ID, CHANNEL_NAME, NotificationManager.IMPORTANCE_DEFAULT)
